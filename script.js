@@ -1,6 +1,6 @@
 const fetchUrl = ( url)=> { console.log(`fetching ${url}`)}
-let timer;
 const debounce = (func,delay)=>{
+    let timer;
     return (url)=>{
         clearTimeout(timer)
         timer = setTimeout(() => {
